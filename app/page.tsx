@@ -3,7 +3,7 @@ import { FaLinkedin, FaTwitter, FaFacebook, FaInstagram, FaGithub } from 'react-
 
 const UnderConstruction = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-200">
+    <div className="flex items-center justify-center min-h-screen bg-gray-300">
       <Head>
         <title>Under Construction</title>
       </Head>
