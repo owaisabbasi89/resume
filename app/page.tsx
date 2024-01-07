@@ -1,41 +1,35 @@
-import Head from 'next/head';
-import { FaLinkedin, FaTwitter, FaFacebook, FaInstagram, FaGithub } from 'react-icons/fa';
+// Import SocialIcons component
+import React from 'react';
+import SocialIcons from './components/SocialIcons'; // Adjust the path based on your project structure
 
-const UnderConstruction = () => {
+const Resume: React.FC = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-300">
-      <Head>
-        <title>Under Construction</title>
-      </Head>
-      <div className="text-center text-gray-800">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 shadow-xl p-4 rounded-lg bg-gray-200">
-          Under Construction
-        </h1>
-        <div className="flex justify-center space-x-4">
-          {/* LinkedIn */}
-          <a href="https://www.linkedin.com/in/owaisabbasi89" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin className="text-blue-600 w-8 h-8" />
-          </a>
-          {/* Twitter */}
-          <a href="https://twitter.com/owaisabbasi89" target="_blank" rel="noopener noreferrer">
-            <FaTwitter className="text-blue-400 w-8 h-8" />
-          </a>
-          {/* Facebook */}
-          <a href="https://www.facebook.com/owaisabbasi89" target="_blank" rel="noopener noreferrer">
-            <FaFacebook className="text-blue-800 w-8 h-8" />
-          </a>
-          {/* Instagram */}
-          <a href="https://www.instagram.com/owaisabbasi89" target="_blank" rel="noopener noreferrer">
-            <FaInstagram className="text-pink-600 w-8 h-8" />
-          </a>
-          {/* GitHub */}
-          <a href="https://github.com/owaisabbasi89" target="_blank" rel="noopener noreferrer">
-            <FaGithub className="text-gray-800 w-8 h-8" />
-          </a>
-        </div>
-      </div>
+    <div className="min-h-screen flex flex-col items-center justify-center text-black px-4 bg-gradient-to-br from-blue-300 to-green-400 bg-pattern-dots">
+
+      <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-8 mb-4">
+        Owais Abbasi
+      </h1>
+      <p className="text-lg md:text-xl font-semibold mb-6">Data Engineer</p>
+      <nav className="mb-8">
+        <ul className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
+          <li>
+            <a href="#portfolio" className="text-gray-700 hover:text-gray-900">
+              Portfolio
+            </a>
+          </li>
+          <li>
+            <a href="#contact" className="text-gray-700 hover:text-gray-900">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+      
+      <section id="contact" className="mb-8">        
+        <SocialIcons /> 
+      </section>
     </div>
   );
 };
 
-export default UnderConstruction;
+export default Resume;
