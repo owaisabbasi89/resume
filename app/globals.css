@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* globals.css */
+html,
+body {
+    background-color: white;
+    /* Set the background color to white */
+    margin: 0;
+    padding: 0;
+}
