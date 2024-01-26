@@ -18,7 +18,7 @@ const SocialIcons: React.FC = () => {
         href={`https://www.linkedin.com/in/${handle}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-white hover:text-gray-300 text-2xl md:text-3xl mx-2 my-2 md:mx-4 md:my-0"
+        className="hover:text-gray-300 text-2xl md:text-3xl mx-2 my-2 md:mx-4 md:my-0"
       >
         <FaLinkedin />
       </a>
@@ -41,7 +41,7 @@ const SocialIcons: React.FC = () => {
         href={`https://github.com/${handle}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-white hover:text-gray-300 text-2xl md:text-3xl mx-2 my-2 md:mx-4 md:my-0"
+        className="hover:text-gray-300 text-2xl md:text-3xl mx-2 my-2 md:mx-4 md:my-0"
       >
         <FaGithub />
       </a>

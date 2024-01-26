@@ -7,7 +7,7 @@ const Header: React.FC = () => {
 
       <nav className="mt-2 md:mt-4">
         <ul className="flex flex-col md:flex-row">
-          <li className="mr-0 md:mr-4 mb-2 md:mb-0">
+          <li className="mr-0 md:mr-4 mb-2 md:mb-0 text-slate-400">
             <a href="#" className="hover:underline">
               Blog
             </a>
@@ -18,7 +18,7 @@ const Header: React.FC = () => {
               href="./OWAIS ABBASI - DATA ENGINEER.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:underline animate-ping font-bold"
+              className="hover:underline font-bold"
             >
               Resume
             </a>
