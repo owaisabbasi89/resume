@@ -8,7 +8,6 @@ import {
   FaGithub,
 } from "react-icons/fa";
 // import { IoLogoTiktok, IoLogoYoutube } from 'react-icons/io5';
-
 const handle = "owaisabbasi89";
 
 const SocialIcons: React.FC = () => {
