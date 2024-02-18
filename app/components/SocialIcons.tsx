@@ -21,16 +21,31 @@ const SocialIcons: React.FC = () => {
       >
         <FaLinkedin />
       </a>
-      {/* <a href={`https://www.facebook.com/${handle}`} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 text-2xl md:text-3xl mx-2 my-2 md:mx-4 md:my-0">
+      <a
+        href={`https://www.facebook.com/${handle}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-500 hover:text-blue-400 text-2xl md:text-3xl mx-2 my-2 md:mx-4 md:my-0"
+      >
         <FaFacebook />
       </a>
-      <a href={`https://twitter.com/${handle}`} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 text-2xl md:text-3xl mx-2 my-2 md:mx-4 md:my-0">
+      <a
+        href={`https://twitter.com/${handle}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-500 hover:text-blue-400 text-2xl md:text-3xl mx-2 my-2 md:mx-4 md:my-0"
+      >
         <FaTwitter />
       </a>
-      <a href={`https://www.instagram.com/${handle}`} target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-400 text-2xl md:text-3xl mx-2 my-2 md:mx-4 md:my-0">
+      <a
+        href={`https://www.instagram.com/${handle}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-pink-500 hover:text-pink-400 text-2xl md:text-3xl mx-2 my-2 md:mx-4 md:my-0"
+      >
         <FaInstagram />
       </a>
-      <a href={`https://www.tiktok.com/@${handle}`} target="_blank" rel="noopener noreferrer" className="text-black hover:text-red-500 text-2xl md:text-3xl mx-2 my-2 md:mx-4 md:my-0">
+      {/* <a href={`https://www.tiktok.com/@${handle}`} target="_blank" rel="noopener noreferrer" className="text-black hover:text-red-500 text-2xl md:text-3xl mx-2 my-2 md:mx-4 md:my-0">
         <IoLogoTiktok />
       </a>
       <a href={`https://www.youtube.com/@${handle}`} target="_blank" rel="noopener noreferrer" className="text-red-500 hover:text-red-400 text-2xl md:text-3xl mx-2 my-2 md:mx-4 md:my-0">

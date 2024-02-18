@@ -7,13 +7,13 @@ const Header: React.FC = () => {
 
       <nav className="mt-2 md:mt-4">
         <ul className="flex flex-col md:flex-row">
-          <li className="mr-0 md:mr-4 mb-2 md:mb-0 text-slate-400">
+          <li className="mx-auto md:mr-4 mb-2 md:mb-0 text-slate-400">
             <a href="#" className="hover:underline">
               Blog
             </a>
           </li>
 
-          <li>
+          <li className="mx-auto">
             <a
               href="./OWAIS ABBASI - DATA ENGINEER.pdf"
               target="_blank"
